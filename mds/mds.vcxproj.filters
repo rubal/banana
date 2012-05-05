@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="mds-exception.h" />
+    <ClInclude Include="mds-lib.h" />
+    <ClInclude Include="src\internals.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\mds.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{ac2f0eac-2a9b-45f8-b08d-22930ae5c762}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
